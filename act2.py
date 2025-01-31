@@ -3,7 +3,9 @@
 def oddoccuringnum(lst):
     res=0
     for element in lst :
-        return res
+        res=res^element
+    return res
+        
 
 arr=[]
 
